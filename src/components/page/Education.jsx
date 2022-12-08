@@ -4,20 +4,20 @@ import { Box } from "@mui/material";
 
 export default function Education() {
   return (
-    <Box ml={4}>
+    <Box mb={4} ml={4}>
       <Typography variant="h6" color="white">
         Educação
       </Typography>
-      <Box sx={{ height: 2, background: "#FFCA03" }} />
-      <Box my={2} ml={2}>
-        <Typography variant="subtitle1" color="white">
+      <Box mt={1} sx={{ height: 2, background: "#FFCA03" }} />
+      <Box mt={2} ml={2}>
+        <Typography variant="subtitle2" color="white">
           Ensino Fundamental - 9° Ano
         </Typography>
-        <Typography variant="body2" color="white">
+        <Typography variant="subtitle2" color="white">
           EE Alfredo Treuherz
         </Typography>
-        <Typography variant="body2" color="white">
-          2018-2022
+        <Typography variant="caption" color="white">
+          2022-2018
         </Typography>
       </Box>
     </Box>
